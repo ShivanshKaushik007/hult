@@ -1,5 +1,7 @@
 # HULT GLOBAL | IET Lucknow
-Follow these steps to set up the project locally on your machine.
+
+
+> Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
 
@@ -12,7 +14,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/brainwave.git
+git clone https://github.com/PhantomPhreak007/hult.git
 cd src
 ```
 
@@ -30,7 +32,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open [http://localhost:XXXX](http://localhost:XXXX) in your browser to view the project.
 
 
 
