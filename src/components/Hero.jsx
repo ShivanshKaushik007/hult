@@ -38,8 +38,8 @@ const   Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           Join a Global Movement of Social Entrepreneurs
           </p>
-          <Button href="/pricing" white>
-            Get Brochure
+          <Button href="https://drive.google.com/file/d/1q4EdT5oraZj6ze3b_Ca5wLHKcelOYPVz/view?usp=sharing" white>
+             Brochure
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -59,10 +59,10 @@ const   Hero = () => {
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem]   bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
+                        <img src={icon} width={45} height={25} alt={icon} className="rounded"/>
                       </li>
                     ))}
                   </ul>

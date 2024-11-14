@@ -1,4 +1,8 @@
 import brainwave from "./hult_logo.svg";
+import hult from "./hulk.png";
+import vineet from "./vineet.jpg";
+import cale from "./calendar.png";
+import about from "./about.jpg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.svg";
@@ -76,7 +80,11 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  cale,
+  vineet,
+  about,
   brainwave,
+  hult,
   check,
   check2,
   loading1,

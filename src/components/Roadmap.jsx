@@ -3,7 +3,7 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets";
+import { check2, grid, loading1,cale } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
@@ -34,17 +34,17 @@ const Roadmap = () => (
                 </div>
                 <div className="relative z-1">
                   <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>{item.date}</Tagline>
+                    <Tagline>{item.venue}</Tagline>
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
                       <img
                         className="mr-2.5"
-                        src={item.status === "done" ? check2 : loading1}
+                        src={cale}
                         width={16}
                         height={16}
                         alt={status}
                       />
-                      <div className="tagline">{status}</div>
+                      <div className="tagline">{item.date}</div>
                     </div>
                   </div>
 
@@ -68,9 +68,9 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
+      {/* <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
         <Button href="/roadmap">Our roadmap</Button>
-      </div>
+      </div> */}
     </div>
   </Section>
 );

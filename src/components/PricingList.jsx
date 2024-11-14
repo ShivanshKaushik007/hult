@@ -12,30 +12,39 @@ const PricingList = () => {
         >
           <h4 className="h4 mb-4">{item.title}</h4>
 
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
+          {/* <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">
             {item.description}
-          </p>
+          </p> */}
 
-          <div className="flex items-center h-[5.5rem] mb-6">
-            {item.price && (
+          <div className="flex items-center justify-center h-[17rem]  w-[21.8rem]  mb-6 ">
+            {item.picture && (
+              <div className="flex justify-center">
               <>
-                <div className="h3">$</div>
-                <div className="text-[5.5rem] leading-none font-bold">
-                  {item.price}
-                </div>
+                {/* <div className="h3">$</div> */}
+                <img className="text-[5.5rem] leading-none font-bold"
+                src={item.picture}
+                alt="vineet"
+                width={250}
+                height={250}
+                />
+                  
+                
               </>
+              </div>
             )}
           </div>
+          
 
           <Button
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.nam}
+            {/* {item.price ? "Get started" : "Contact us"} */}
           </Button>
-
-          <ul>
+           
+          {/* <ul>
             {item.features.map((feature, index) => (
               <li
                 key={index}
@@ -45,7 +54,7 @@ const PricingList = () => {
                 <p className="body-2 ml-4">{feature}</p>
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
       ))}
     </div>

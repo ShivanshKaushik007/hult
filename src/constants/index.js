@@ -34,28 +34,30 @@ import {
   telegram,
   twitter,
   yourlogo,
+  hult,
+  vineet
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
     title: "Home",
-    url: "#features",
+    url: "#hero",
   },
   {
     id: "1",
     title: "About",
-    url: "#pricing",
+    url: "#how-to-use",
   },
   {
     id: "2",
     title: "Events",
-    url: "#how-to-use",
+    url: "#roadmap",
   },
   {
     id: "3",
     title: "FAQ",
-    url: "#roadmap",
+    url: "#features",
   },
   // {
   //   id: "4",
@@ -83,6 +85,7 @@ export const brainwaveServices = [
   "Seamless Integration",
 ];
 
+
 export const brainwaveServicesIcons = [
   recording03,
   recording01,
@@ -94,35 +97,35 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Auctum",
-    text: "Auctum is an event where participants act as social entrepreneurs, using strategic thinking and negotiation to bid on impactful project ideas. Teams must create compelling investment cases that balance profitability with social impact, showcasing their ability to pitch sustainable solutions in a competitive environment.",
-    date: "28 Nov 2024",
-    status: "upcoming",
+    title: "Orientation",
+    text: "Orientation is an introductory event designed to give participants an overview of the Hult Prize journey, including its mission, goals, and the impact they can create. Attendees will learn about the competition's structure, gain insights into each event, and receive guidance on developing innovative solutions. It's the perfect start for teams to connect, explore ideas, and prepare for the challenges ahead.",
+    date: "16 Nov 2024",
+    venue: "Venue : Kalam Hall",
     imageUrl: roadmap1,
     colorful: true,
   },
   {
     id: "1",
-    title: "AdMad",
-    text: "AdMad is a dynamic event where creativity meets purpose. Participants are tasked with designing innovative marketing campaigns for fictional social enterprises, showcasing their advertising skills and strategic thinking. This fast-paced challenge pushes teams to create compelling ads that convey strong social messages, blending creativity with impact in a competitive setting.",
-    date: "May 2024",
-    status: "progress",
+    title: "Auctum",
+    text: "Auctum is an event where participants act as social entrepreneurs, using strategic thinking and negotiation to bid on impactful project ideas. Teams must create compelling investment cases that balance profitability with social impact, showcasing their ability to pitch sustainable solutions in a competitive environment.",
+    date: "Coming Soon",
+    venue: "Venue : Kalam Hall",
     imageUrl: roadmap2,
   },
   {
     id: "2",
-    title: "SharkTank",
-    text: "SharkTank is an exciting event where participants pitch their innovative business ideas to a panel of expert judges, known as sharks. The goal is to present sustainable, impactful solutions to real-world problems, demonstrating feasibility and potential for success. This event tests participants creativity, business acumen, and persuasive communication skills in a high-stakes, competitive setting.",
-    date: "May 2024",
-    status: "progress",
+    title: "AdMad",
+    text: "AdMad is a dynamic event where creativity meets purpose. Participants are tasked with designing innovative marketing campaigns for fictional social enterprises, showcasing their advertising skills and strategic thinking. This fast-paced challenge pushes teams to create compelling ads that convey strong social messages, blending creativity with impact in a competitive setting.",
+    date: "Coming Soon",
+    venue: "Venue : Auditorium",
     imageUrl: roadmap3,
   },
   {
     id: "3",
-    title: "Pictionaries",
-    text: "Pictionaries is a fun and dynamic event where participants use their drawing skills to communicate and guess words or phrases. Teams compete against the clock to interpret and illustrate prompts as accurately as possible, encouraging quick thinking, creativity, and teamwork. This event tests participants' ability to convey ideas visually and think on their feet while fostering a lively and collaborative atmosphere.",
-    date: "May 2024",
-    status: "progress",
+    title: "SharkTank",
+    text: "SharkTank is an exciting event where participants pitch their innovative business ideas to a panel of expert judges, known as sharks. The goal is to present sustainable, impactful solutions to real-world problems, demonstrating feasibility and potential for success. This event tests participants creativity, business acumen, and persuasive communication skills in a high-stakes, competitive setting.",
+    date: "Coming Soon",
+    venue: "Venue: Auditorium",
     imageUrl: roadmap4,
   },
 ];
@@ -208,9 +211,9 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "IIC Chairman",
+    nam:"Dr. Seethalekshmi K",
+    picture: vineet,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -219,9 +222,9 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Director",
+    nam:"Prof. Vineet Kansal",
+    picture: vineet,
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
@@ -230,9 +233,9 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Campus Director",
+    nam:"Affan Ali",
+    picture: vineet,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -295,23 +298,23 @@ export const benefits = [
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
+  // {
+  //   id: "0",
+  //   title: "Discord",
+  //   iconUrl: discordBlack,
+  //   url: "#",
+  // },
+  // {
+  //   id: "1",
+  //   title: "Twitter",
+  //   iconUrl: twitter,
+  //   url: "#",
+  // },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://www.instagram.com/hultprize_ietlko?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   {
     id: "3",
