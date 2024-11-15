@@ -16,6 +16,7 @@ const Benefits = () => {
 
         <div className="flex flex-wrap justify-center gap-10 mb-10">
           {benefits.map((item) => (
+            <a href={item.rulebook} key={item.id}>
             <div
               className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
               style={{
@@ -27,12 +28,12 @@ const Benefits = () => {
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                 {/* <img
                     src={item.iconUrl}
                     width={48}
                     height={48}
                     alt={item.title}
-                  />
+                  /> */}
                   <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
                     <b>RuleBook</b>
                   </p>
@@ -48,7 +49,8 @@ const Benefits = () => {
               >
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
                   {item.imageUrl && (
-                    <img
+                  
+                  <img
                       src={item.imageUrl}
                       width={380}
                       height={362}
@@ -61,6 +63,7 @@ const Benefits = () => {
 
               <ClipPath />
             </div>
+             </a>
           ))}
         </div>
       </div>

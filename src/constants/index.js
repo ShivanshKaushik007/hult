@@ -35,7 +35,11 @@ import {
   twitter,
   yourlogo,
   hult,
-  vineet
+  vineet,
+  affan,
+  seeta,
+  whatsapp,
+  linkedin
 } from "../assets";
 
 export const navigation = [
@@ -68,7 +72,7 @@ export const navigation = [
   {
     id: "5",
     title: "Know More",
-    url: "#login",
+    url: "https://docs.google.com/forms/d/e/1FAIpQLSdGaMXXBeNfSAw93LLgw-cDJAfPb1xnVMFgWKsNx6gOx1N_dA/viewform",
     onlyMobile: true,
   },
 ];
@@ -99,7 +103,7 @@ export const roadmap = [
     id: "0",
     title: "Orientation",
     text: "Orientation is an introductory event designed to give participants an overview of the Hult Prize journey, including its mission, goals, and the impact they can create. Attendees will learn about the competition's structure, gain insights into each event, and receive guidance on developing innovative solutions. It's the perfect start for teams to connect, explore ideas, and prepare for the challenges ahead.",
-    date: "16 Nov 2024",
+    date: "16/11/2024",
     venue: "Venue : Kalam Hall",
     imageUrl: roadmap1,
     colorful: true,
@@ -108,7 +112,7 @@ export const roadmap = [
     id: "1",
     title: "Auctum",
     text: "Auctum is an event where participants act as social entrepreneurs, using strategic thinking and negotiation to bid on impactful project ideas. Teams must create compelling investment cases that balance profitability with social impact, showcasing their ability to pitch sustainable solutions in a competitive environment.",
-    date: "Coming Soon",
+    date: "Soon",
     venue: "Venue : Kalam Hall",
     imageUrl: roadmap2,
   },
@@ -116,7 +120,7 @@ export const roadmap = [
     id: "2",
     title: "AdMad",
     text: "AdMad is a dynamic event where creativity meets purpose. Participants are tasked with designing innovative marketing campaigns for fictional social enterprises, showcasing their advertising skills and strategic thinking. This fast-paced challenge pushes teams to create compelling ads that convey strong social messages, blending creativity with impact in a competitive setting.",
-    date: "Coming Soon",
+    date: "Soon",
     venue: "Venue : Auditorium",
     imageUrl: roadmap3,
   },
@@ -124,7 +128,7 @@ export const roadmap = [
     id: "3",
     title: "SharkTank",
     text: "SharkTank is an exciting event where participants pitch their innovative business ideas to a panel of expert judges, known as sharks. The goal is to present sustainable, impactful solutions to real-world problems, demonstrating feasibility and potential for success. This event tests participants creativity, business acumen, and persuasive communication skills in a high-stakes, competitive setting.",
-    date: "Coming Soon",
+    date: "Soon",
     venue: "Venue: Auditorium",
     imageUrl: roadmap4,
   },
@@ -213,7 +217,7 @@ export const pricing = [
     id: "0",
     title: "IIC Chairman",
     nam:"Dr. Seethalekshmi K",
-    picture: vineet,
+    picture: seeta,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -235,7 +239,7 @@ export const pricing = [
     id: "2",
     title: "Campus Director",
     nam:"Affan Ali",
-    picture: vineet,
+    picture: affan,
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -248,36 +252,41 @@ export const benefits = [
   {
     id: "0",
     title: "Auctum",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Auctum challenges participants to act as social entrepreneurs, strategically bidding and pitching sustainable solutions that balance profitability with social impact.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    rulebook:"https://drive.google.com/file/d/1YZOD4v_4emGPBmwHgjxLyW5wWsUZSUHw/view?usp=drive_link",
+    
   },
   {
     id: "1",
     title: "Admad",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    text: "AdMad is a creative challenge where participants design innovative marketing campaigns for fictional social enterprises, blending advertising skills with impactful social messaging.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    rulebook:"https://drive.google.com/file/d/1YahWdexqXZ1Wu6n-RY_uM_qPRIalLNLC/view?usp=drive_link",
   },
   {
     id: "2",
     title: "SharkTank",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    text: "SharkTank challenges participants to pitch innovative, sustainable business ideas to expert judges, showcasing creativity, business acumen, and persuasive communication.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
+    rulebook:"https://www.linkedin.com/company/hult-prize-iet-lucknow/posts/?feedView=all",
   },
   {
     id: "3",
-    title: "Pictionaries",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Mystery Event",
+    text: "The Mystery Event is a thrilling challenge shrouded in secrecy, testing participants' adaptability, creativity, and problem-solving skills in unexpected scenarios.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
+    rulebook:"https://www.instagram.com/hultprize_ietlko?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
   // {
   //   id: "4",
@@ -298,34 +307,34 @@ export const benefits = [
 ];
 
 export const socials = [
-  // {
-  //   id: "0",
-  //   title: "Discord",
-  //   iconUrl: discordBlack,
-  //   url: "#",
-  // },
-  // {
-  //   id: "1",
-  //   title: "Twitter",
-  //   iconUrl: twitter,
-  //   url: "#",
-  // },
+  {
+    id: "0",
+    title: "Whatsapp",
+    iconUrl: whatsapp,
+    url: "https://chat.whatsapp.com/IdcBxchDQeN2HzamTXLL9r",
+  },
+  {
+    id: "1",
+    title: "LinkedIn",
+    iconUrl: linkedin,
+    url: "https://www.linkedin.com/company/hult-prize-iet-lucknow/posts/?feedView=all",
+  },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
     url: "https://www.instagram.com/hultprize_ietlko?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
+  // {
+  //   id: "3",
+  //   title: "Twitter",
+  //   iconUrl: twitter,
+  //   url: "https://www.facebook.com/HultPrizeIETLKO/",
+  // },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "https://www.facebook.com/HultPrizeIETLKO/",
   },
 ];

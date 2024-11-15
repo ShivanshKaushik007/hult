@@ -73,8 +73,8 @@ const Header = () => {
         >
           New account
         </a> */}
-        <Button className="hidden lg:flex" href="https://www.hultprize.org/">
-          Know More
+        <Button className="hidden lg:flex" href="https://docs.google.com/forms/d/e/1FAIpQLSdGaMXXBeNfSAw93LLgw-cDJAfPb1xnVMFgWKsNx6gOx1N_dA/viewform">
+          Register
         </Button>
 
         <Button

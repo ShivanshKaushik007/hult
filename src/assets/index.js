@@ -2,6 +2,10 @@ import brainwave from "./hult_logo.svg";
 import hult from "./hulk.png";
 import vineet from "./vineet.jpg";
 import cale from "./calendar.png";
+import affan from "./affan.jpg";
+import seeta from "./seeta.png";
+import whatsapp from "./whatsapp.png";
+import linkedin from "./linkedin.png";
 import about from "./about.jpg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -83,6 +87,10 @@ export {
   cale,
   vineet,
   about,
+  affan,
+  seeta,
+  whatsapp,
+  linkedin,
   brainwave,
   hult,
   check,
