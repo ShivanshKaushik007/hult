@@ -71,7 +71,7 @@ export const navigation = [
   // },
   {
     id: "5",
-    title: "Know More",
+    title: "Register",
     url: "https://docs.google.com/forms/d/e/1FAIpQLSdGaMXXBeNfSAw93LLgw-cDJAfPb1xnVMFgWKsNx6gOx1N_dA/viewform",
     onlyMobile: true,
   },
@@ -237,28 +237,6 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "NNF Director",
-    nam:"Pushkar Tripathi",
-    picture: pr,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "3",
-    title: "Manager",
-    name:"Sandeep Kumar",
-    picture: sanpeed,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
-  },
-  {
-    id: "4",
     title: "Campus Director",
     nam:"Affan Ali",
     picture: affan,
