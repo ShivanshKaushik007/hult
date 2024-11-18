@@ -256,7 +256,7 @@ export const benefits = [
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
-    rulebook:"https://drive.google.com/file/d/1YZOD4v_4emGPBmwHgjxLyW5wWsUZSUHw/view?usp=drive_link",
+    rulebook:"https://drive.google.com/file/d/1hwFuviu8KBGu3wA9s75LF8hQCylNIlmr/view?usp=sharing",
     
   },
   {
