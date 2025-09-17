@@ -14,8 +14,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/PhantomPhreak007/hult.git
-cd src
+git clone https://github.com/ShivanshKaushik007/hult.git
+cd hult
 ```
 
 **Installation**
